@@ -6,7 +6,7 @@ Objective: Classify industrial images into "With Helmet" (Class 1) and "Without 
 Primary Metric: High Precision (focusing on reducing False Positives, where a worker is predicted to be wearing a helmet but is not).
 Frameworks & Tools: TensorFlow, Keras, OpenCV, Scikit-learn, Seaborn, Matplotlib.
 📊 Dataset
-Total Images: 4,125 images in RGB color space ($200 \times 200 \times 3$$200 \times 200 \times 3$).
+Total Images: 4,125 images in RGB color space 
 Class Imbalance:
 With Helmet (Class 1): 3,161 images (~76.6%)
 Without Helmet (Class 0): 964 images (~23.4%)
